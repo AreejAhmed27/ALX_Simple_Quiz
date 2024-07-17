@@ -1,5 +1,6 @@
 function checkAnswer() {
     const correctAnswer = "4";
+    document.querySelector("input").value;
     let userAnswer = document.getElementsByName("quiz");
     let textContent = document.getElementById("feedback");
 
