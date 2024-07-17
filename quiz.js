@@ -4,7 +4,7 @@ function checkAnswer() {
     let userAnswer = document.getElementsByName("quiz");
     let textContent = document.getElementById("feedback");
 
-    if(userAnswer[0].checked && userAnswer[0].value == correctAnswer){
+    if(userAnswer[0].checked && userAnswer[0].value === correctAnswer){
         textContent.innerText = "Correct! Well done.";
         console.log(textContent.innerText);
     }else{
